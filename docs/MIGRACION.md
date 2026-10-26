@@ -2,7 +2,8 @@
 
 **Repositorio inventariado:** `Angelitotech23/Top-100-Hackers-Bolivia`  
 **Fecha:** 2026-10-26 (America/La_Paz)  
-**Alcance:** documentación y datos de este repo. Sin secretos ni datos privados de usuarios.
+**Alcance:** documentación y datos de este repo. Sin secretos ni datos privados de usuarios.  
+**Nota de estructura:** tras reorganización 2026-10-26, la documentación vive en `docs/` y los snapshots por temporada en `data/seasons/<año>/`.
 
 ---
 
@@ -13,12 +14,13 @@ Este repositorio es de **documentación y datos del ranking**, no de la aplicaci
 | Ruta | Rol |
 |------|-----|
 | `README.md` | Índice del proyecto |
-| `REGLAMENTO.md` | Reglamento de puntaje v1.0 |
-| `CONTEXTO.md` | Contexto de producto, plazas y stack |
+| `docs/REGLAMENTO.md` | Reglamento de puntaje v1.0 |
+| `docs/CONTEXTO.md` | Contexto de producto, plazas y stack |
 | `data/fuentes.md` | Fuentes y URLs |
-| `data/ranking-2026.md` | Snapshot legible |
-| `data/ranking-2026.json` | Snapshot estructurado |
-| `MIGRACION.md` | Este inventario |
+| `data/seasons/2026/ranking.md` | Snapshot legible |
+| `data/seasons/2026/ranking.json` | Snapshot estructurado |
+| `docs/MIGRACION.md` | Este inventario |
+| `_mapa/` | Mapa de reorganización y grafo de relaciones |
 
 La app en producción está en **Vercel**: `https://bolivia-100-hackers.vercel.app` (Clerk). El código de esa app **no** está en este árbol.
 
@@ -65,4 +67,4 @@ Escaneo de patrones comunes en este repo: **ningún secreto encontrado** (no imp
 
 ## 6. Archivos revisados
 
-README, CONTEXTO, REGLAMENTO, data/*, historial de docs. Sin `package.json` ni código de app en el estado actual del repo.
+README, docs/CONTEXTO, docs/REGLAMENTO, data/*, historial de docs. Sin `package.json` ni código de app en el estado actual del repo.

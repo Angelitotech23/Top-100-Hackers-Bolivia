@@ -44,7 +44,7 @@ Principios clave documentados en el producto y el reglamento:
 
 ## Plazas ocupadas (snapshot 2026-10-26)
 
-Ver detalle en `data/ranking-2026.md` y `data/ranking-2026.json`.
+Ver detalle en `data/seasons/2026/ranking.md` y `data/seasons/2026/ranking.json`.
 
 | Puesto | Nombre | Handle |
 |--------|--------|--------|
@@ -89,4 +89,4 @@ Documentación, reglamento, fuentes, snapshot de ranking y notas de migración. 
 
 ## Ética
 
-Solo se documentan y puntúan actividades autorizadas y evidencia pública. Cualquier claim de acceso no autorizado queda fuera del ranking (ver `/codigo` y `REGLAMENTO.md`).
+Solo se documentan y puntúan actividades autorizadas y evidencia pública. Cualquier claim de acceso no autorizado queda fuera del ranking (ver `/codigo` y `docs/REGLAMENTO.md`).

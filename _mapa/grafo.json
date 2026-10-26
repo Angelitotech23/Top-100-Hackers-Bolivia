@@ -1,0 +1,319 @@
+{
+  "meta": {
+    "fecha": "2026-10-26",
+    "timezone": "America/La_Paz",
+    "estado": "post-reorganizacion",
+    "nota": "Grafo de relaciones documentales y de datos. No hay módulos de código ejecutables en este repo.",
+    "sospechosos": [
+      {
+        "id": "ext:repo-rank-quest",
+        "motivo": "Referenciado históricamente en CONTEXTO/fuentes pero inaccesible (404). Nodo sin uso verificable desde archivos locales."
+      },
+      {
+        "id": "ext:cgii-muro-fama",
+        "motivo": "URL citada en data/fuentes.md marcada como no verificada (HTTP 404)."
+      }
+    ],
+    "duplicacion": [
+      {
+        "archivos": [
+          "data/seasons/2026/ranking.md",
+          "data/seasons/2026/ranking.json"
+        ],
+        "motivo": "Mismo snapshot de 8 plazas en formato humano y máquina; dual-format intencional."
+      }
+    ],
+    "circulares": []
+  },
+  "nodos": [
+    {
+      "id": "file:README.md",
+      "tipo": "archivo",
+      "ruta": "README.md",
+      "capa": "indice"
+    },
+    {
+      "id": "file:docs/REGLAMENTO.md",
+      "tipo": "archivo",
+      "ruta": "docs/REGLAMENTO.md",
+      "capa": "gobernanza"
+    },
+    {
+      "id": "file:docs/CONTEXTO.md",
+      "tipo": "archivo",
+      "ruta": "docs/CONTEXTO.md",
+      "capa": "documentacion"
+    },
+    {
+      "id": "file:docs/MIGRACION.md",
+      "tipo": "archivo",
+      "ruta": "docs/MIGRACION.md",
+      "capa": "documentacion"
+    },
+    {
+      "id": "file:data/fuentes.md",
+      "tipo": "archivo",
+      "ruta": "data/fuentes.md",
+      "capa": "datos"
+    },
+    {
+      "id": "file:data/seasons/2026/ranking.md",
+      "tipo": "archivo",
+      "ruta": "data/seasons/2026/ranking.md",
+      "capa": "datos"
+    },
+    {
+      "id": "file:data/seasons/2026/ranking.json",
+      "tipo": "archivo",
+      "ruta": "data/seasons/2026/ranking.json",
+      "capa": "datos"
+    },
+    {
+      "id": "modulo:docs",
+      "tipo": "modulo",
+      "ruta": "docs",
+      "capa": "documentacion"
+    },
+    {
+      "id": "modulo:data",
+      "tipo": "modulo",
+      "ruta": "data",
+      "capa": "datos"
+    },
+    {
+      "id": "modulo:mapa",
+      "tipo": "modulo",
+      "ruta": "_mapa",
+      "capa": "documentacion"
+    },
+    {
+      "id": "ext:vercel-app",
+      "tipo": "servicio_externo",
+      "ruta": "https://bolivia-100-hackers.vercel.app",
+      "capa": "servicio_externo"
+    },
+    {
+      "id": "ext:clerk",
+      "tipo": "servicio_externo",
+      "ruta": "Clerk (auth del producto)",
+      "capa": "servicio_externo"
+    },
+    {
+      "id": "ext:repo-rank-quest",
+      "tipo": "servicio_externo",
+      "ruta": "angelitotzy23/rank-quest (histórico, 404)",
+      "capa": "servicio_externo"
+    },
+    {
+      "id": "ext:cgii-muro-fama",
+      "tipo": "servicio_externo",
+      "ruta": "https://www.cgii.gob.bo/es/muro-fama",
+      "capa": "servicio_externo"
+    },
+    {
+      "id": "ext:hackers-bo",
+      "tipo": "servicio_externo",
+      "ruta": "https://hackers.bo/",
+      "capa": "servicio_externo"
+    },
+    {
+      "id": "ext:hackerdna",
+      "tipo": "servicio_externo",
+      "ruta": "https://hackerdna.com/rankings/bolivia",
+      "capa": "servicio_externo"
+    },
+    {
+      "id": "ext:wechall",
+      "tipo": "servicio_externo",
+      "ruta": "https://wc2.wechall.net/country_ranking/player/Drigo8055",
+      "capa": "servicio_externo"
+    }
+  ],
+  "aristas": [
+    {
+      "origen": "file:README.md",
+      "destino": "file:docs/REGLAMENTO.md",
+      "relacion": "importa"
+    },
+    {
+      "origen": "file:README.md",
+      "destino": "file:docs/CONTEXTO.md",
+      "relacion": "importa"
+    },
+    {
+      "origen": "file:README.md",
+      "destino": "file:docs/MIGRACION.md",
+      "relacion": "importa"
+    },
+    {
+      "origen": "file:README.md",
+      "destino": "file:data/fuentes.md",
+      "relacion": "importa"
+    },
+    {
+      "origen": "file:README.md",
+      "destino": "file:data/seasons/2026/ranking.md",
+      "relacion": "importa"
+    },
+    {
+      "origen": "file:README.md",
+      "destino": "file:data/seasons/2026/ranking.json",
+      "relacion": "importa"
+    },
+    {
+      "origen": "file:README.md",
+      "destino": "ext:vercel-app",
+      "relacion": "consume_api"
+    },
+    {
+      "origen": "file:docs/CONTEXTO.md",
+      "destino": "file:docs/REGLAMENTO.md",
+      "relacion": "importa"
+    },
+    {
+      "origen": "file:docs/CONTEXTO.md",
+      "destino": "file:data/seasons/2026/ranking.md",
+      "relacion": "importa"
+    },
+    {
+      "origen": "file:docs/CONTEXTO.md",
+      "destino": "file:data/seasons/2026/ranking.json",
+      "relacion": "importa"
+    },
+    {
+      "origen": "file:docs/CONTEXTO.md",
+      "destino": "ext:vercel-app",
+      "relacion": "consume_api"
+    },
+    {
+      "origen": "file:docs/CONTEXTO.md",
+      "destino": "ext:clerk",
+      "relacion": "usa_bd"
+    },
+    {
+      "origen": "file:docs/CONTEXTO.md",
+      "destino": "ext:repo-rank-quest",
+      "relacion": "importa"
+    },
+    {
+      "origen": "file:docs/MIGRACION.md",
+      "destino": "file:README.md",
+      "relacion": "importa"
+    },
+    {
+      "origen": "file:docs/MIGRACION.md",
+      "destino": "file:docs/REGLAMENTO.md",
+      "relacion": "importa"
+    },
+    {
+      "origen": "file:docs/MIGRACION.md",
+      "destino": "file:docs/CONTEXTO.md",
+      "relacion": "importa"
+    },
+    {
+      "origen": "file:docs/MIGRACION.md",
+      "destino": "file:data/fuentes.md",
+      "relacion": "importa"
+    },
+    {
+      "origen": "file:docs/MIGRACION.md",
+      "destino": "file:data/seasons/2026/ranking.md",
+      "relacion": "importa"
+    },
+    {
+      "origen": "file:docs/MIGRACION.md",
+      "destino": "file:data/seasons/2026/ranking.json",
+      "relacion": "importa"
+    },
+    {
+      "origen": "file:docs/MIGRACION.md",
+      "destino": "ext:vercel-app",
+      "relacion": "consume_api"
+    },
+    {
+      "origen": "file:docs/MIGRACION.md",
+      "destino": "ext:clerk",
+      "relacion": "usa_bd"
+    },
+    {
+      "origen": "file:data/fuentes.md",
+      "destino": "ext:vercel-app",
+      "relacion": "consume_api"
+    },
+    {
+      "origen": "file:data/fuentes.md",
+      "destino": "ext:cgii-muro-fama",
+      "relacion": "consume_api"
+    },
+    {
+      "origen": "file:data/fuentes.md",
+      "destino": "ext:hackers-bo",
+      "relacion": "consume_api"
+    },
+    {
+      "origen": "file:data/fuentes.md",
+      "destino": "ext:hackerdna",
+      "relacion": "consume_api"
+    },
+    {
+      "origen": "file:data/fuentes.md",
+      "destino": "ext:wechall",
+      "relacion": "consume_api"
+    },
+    {
+      "origen": "file:data/fuentes.md",
+      "destino": "ext:repo-rank-quest",
+      "relacion": "importa"
+    },
+    {
+      "origen": "file:data/seasons/2026/ranking.md",
+      "destino": "ext:vercel-app",
+      "relacion": "consume_api"
+    },
+    {
+      "origen": "file:data/seasons/2026/ranking.json",
+      "destino": "ext:vercel-app",
+      "relacion": "consume_api"
+    },
+    {
+      "origen": "file:data/seasons/2026/ranking.md",
+      "destino": "file:data/seasons/2026/ranking.json",
+      "relacion": "usa_bd"
+    },
+    {
+      "origen": "modulo:docs",
+      "destino": "file:docs/REGLAMENTO.md",
+      "relacion": "importa"
+    },
+    {
+      "origen": "modulo:docs",
+      "destino": "file:docs/CONTEXTO.md",
+      "relacion": "importa"
+    },
+    {
+      "origen": "modulo:docs",
+      "destino": "file:docs/MIGRACION.md",
+      "relacion": "importa"
+    },
+    {
+      "origen": "modulo:data",
+      "destino": "file:data/fuentes.md",
+      "relacion": "importa"
+    },
+    {
+      "origen": "modulo:data",
+      "destino": "file:data/seasons/2026/ranking.md",
+      "relacion": "importa"
+    },
+    {
+      "origen": "modulo:data",
+      "destino": "file:data/seasons/2026/ranking.json",
+      "relacion": "importa"
+    },
+    {
+      "origen": "file:docs/REGLAMENTO.md",
+      "destino": "ext:vercel-app",
+      "relacion": "consume_api"
+    }
+  ]
+}
