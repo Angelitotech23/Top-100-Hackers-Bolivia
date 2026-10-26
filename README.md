@@ -18,12 +18,13 @@ Un incentivo para revivir la competencia tecnológica y dar más alcance y visib
 
 | Archivo | Descripción |
 |---------|-------------|
-| [REGLAMENTO.md](./REGLAMENTO.md) | Reglamento de puntaje v1.0 (octubre 2026) |
-| [CONTEXTO.md](./CONTEXTO.md) | Contexto del proyecto, stack y estado |
-| [MIGRACION.md](./MIGRACION.md) | Inventario de migración (sin secretos) |
+| [docs/REGLAMENTO.md](./docs/REGLAMENTO.md) | Reglamento de puntaje v1.0 (octubre 2026) |
+| [docs/CONTEXTO.md](./docs/CONTEXTO.md) | Contexto del proyecto, stack y estado |
+| [docs/MIGRACION.md](./docs/MIGRACION.md) | Inventario de migración (sin secretos) |
 | [data/fuentes.md](./data/fuentes.md) | Fuentes consultadas |
-| [data/ranking-2026.md](./data/ranking-2026.md) | Snapshot legible del ranking |
-| [data/ranking-2026.json](./data/ranking-2026.json) | Snapshot estructurado de plazas ocupadas |
+| [data/seasons/2026/ranking.md](./data/seasons/2026/ranking.md) | Snapshot legible del ranking |
+| [data/seasons/2026/ranking.json](./data/seasons/2026/ranking.json) | Snapshot estructurado de plazas ocupadas |
+| [_mapa/MAPA_PROYECTO.md](./_mapa/MAPA_PROYECTO.md) | Mapa del repositorio (estructura y relaciones) |
 
 ## Temporada
 
