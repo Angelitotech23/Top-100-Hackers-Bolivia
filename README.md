@@ -1,44 +1,30 @@
-# Bolivia 100 Hackers
+# Top-100-Hackers-Bolivia
 
-Ranking de **100 plazas** para referentes del ecosistema tecnológico boliviano: seguridad (autorizada), software, datos/IA, blockchain y roles de apoyo a la comunidad.
+Un incentivo para revivir la competencia tecnológica y dar más alcance y visibilidad a nuestros talentos.
 
-Este repositorio incluye la **aplicación web** (Next.js) del tablero, el código del ranking y un resumen del reglamento de puntaje v1.0.
+**Bolivia 100 Hackers** es un ranking de 100 plazas para referentes del ecosistema tecnológico boliviano: seguridad ofensiva y defensiva (autorizada), desarrollo, datos/IA, blockchain y roles de apoyo al ecosistema.
 
-## Qué incluye
+> Este repositorio es de **documentación y datos**. La aplicación web ya existe en producción.
 
-- Landing con identidad visual propia
-- Tablero `/ranking` (100 asientos, filtros y búsqueda)
-- Fichas `/ranking/[n]` con perfiles publicados
-- `/codigo` y `/reglamento`
-- Postulación demo en `/postular` + API `POST /api/applications`
+## Enlaces del producto
 
-## Desarrollo local
+| Recurso | URL |
+|---------|-----|
+| Tablero en vivo | https://bolivia-100-hackers.vercel.app |
+| Ranking | https://bolivia-100-hackers.vercel.app/ranking |
+| Código del ranking | https://bolivia-100-hackers.vercel.app/codigo |
 
-```bash
-npm install
-npm run dev -- --port 43127
-```
+## Contenido de este repo
 
-Abre [http://127.0.0.1:43127](http://127.0.0.1:43127).
+| Archivo | Descripción |
+|---------|-------------|
+| [REGLAMENTO.md](./REGLAMENTO.md) | Reglamento de puntaje v1.0 (octubre 2026) |
+| [CONTEXTO.md](./CONTEXTO.md) | Contexto del proyecto, stack y estado |
+| [MIGRACION.md](./MIGRACION.md) | Inventario de migración (sin secretos) |
+| [data/fuentes.md](./data/fuentes.md) | Fuentes consultadas |
+| [data/ranking-2026.md](./data/ranking-2026.md) | Snapshot legible del ranking |
+| [data/ranking-2026.json](./data/ranking-2026.json) | Snapshot estructurado de plazas ocupadas |
 
-## Scripts
+## Temporada
 
-| Comando        | Descripción        |
-|----------------|--------------------|
-| `npm run dev`  | Servidor de desarrollo |
-| `npm run build`| Build de producción |
-| `npm run start`| Servidor de producción |
-| `npm run lint` | ESLint |
-
-## Datos
-
-Los perfiles ocupados en `src/data/hackers.ts` reflejan el tablero público de la temporada 2026. Las postulaciones en demo se guardan en memoria del proceso (y una copia opcional en `localStorage`).
-
-## Seguridad y ética
-
-Solo se puntúan logros **autorizados** y evidencia pública. Accesos sin permiso, fraude o interrupciones no entran al ranking. Ver `/codigo`.
-
-## Enlaces
-
-- Repo de documentación / origen del reglamento: [Angelitotech23/Top-100-Hackers-Bolivia](https://github.com/Angelitotech23/Top-100-Hackers-Bolivia)
-- Temporada: 2026
+2026 · 100 plazas · evidencia verificable · el puesto lo asigna la mesa.
