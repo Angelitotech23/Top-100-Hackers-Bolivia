@@ -12,11 +12,8 @@ Todas las consultas usaron fecha **2026-10-26** (zona America/La_Paz), salvo que
 8. **Ficha puesto 08** — https://bolivia-100-hackers.vercel.app/ranking/8
 9. **Ficha puesto 13** — https://bolivia-100-hackers.vercel.app/ranking/13
 10. **Código del ranking (reglas públicas)** — https://bolivia-100-hackers.vercel.app/codigo
-11. **Repositorio de la aplicación (código abierto relacionado)** — https://github.com/angelitotzy23/rank-quest — Stack y reglas de negocio en README.
-12. **README del repositorio de documentación** — https://github.com/Angelitotech23/Top-100-Hackers-Bolivia — Texto previo conservado en espíritu en el nuevo README.
-13. **Muro de la Fama CGII** — https://www.cgii.gob.bo/es/muro-fama — **no verificado en vivo** (HTTP 404 al fetch directo el 2026-10-26); contenido comparativo tomado de índice web.
-14. **Bases Muro de la Fama CGII** — https://www.cgii.gob.bo/bases-y-condiciones-muro-de-la-fama — Reglas de puntos y publicación de alias.
-15. **Hackers.bo (programa AGETIC)** — https://hackers.bo/ — Hall of fame por temporadas.
-16. **HackerDNA — ranking Bolivia** — https://hackerdna.com/rankings/bolivia — Ranking por XP (muestra reducida de usuarios bolivianos).
-17. **WeChall — ranking Bolivia** — https://wc2.wechall.net/country_ranking/player/Drigo8055 — Ranking CTF agregado (muestra muy pequeña).
-18. **Búsqueda web «Blovia ranking hackers»** — Sin resultados que identifiquen una plataforma con ese nombre; se documenta la corrección a Bolivia 100 Hackers.
+11. **README del repositorio** — https://github.com/Angelitotech23/Top-100-Hackers-Bolivia
+12. **Muro de la Fama CGII** — https://www.cgii.gob.bo/es/muro-fama — **no verificado en vivo** (HTTP 404 al fetch directo el 2026-10-26).
+13. **Hackers.bo (programa AGETIC)** — https://hackers.bo/
+14. **HackerDNA — ranking Bolivia** — https://hackerdna.com/rankings/bolivia
+15. **WeChall — ranking Bolivia** — https://wc2.wechall.net/country_ranking/player/Drigo8055
