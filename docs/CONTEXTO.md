@@ -33,7 +33,7 @@ Principios clave documentados en el producto y el reglamento:
 - `/` — landing
 - `/ranking` — tablero de 100 asientos
 - `/ranking/[n]` — ficha de puesto
-- `/reglamento` — reglamento de postulación y puntaje (v1.0); reemplaza al antiguo `/codigo`
+- `/reglamento` — resumen + botón al documento completo en Google Docs; reemplaza al antiguo `/codigo`
 - `/codigo` — redirige a `/reglamento` (compatibilidad)
 
 ### Flujo de entrada (producto)

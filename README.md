@@ -46,6 +46,7 @@ El sistema no pretende ser perfecto: pretende ser **auditable, corregible y tran
 | Landing / tablero | https://bolivia-100-hackers.vercel.app |
 | Ranking (100 asientos) | https://bolivia-100-hackers.vercel.app/ranking |
 | Reglamento de postulación | https://bolivia-100-hackers.vercel.app/reglamento |
+| Reglamento completo (Google Docs) | https://docs.google.com/document/d/1or7-7jpmDDzhE5ygkkFpj2MdT9iB2W9xYNOvNFnkyiw/edit?usp=sharing |
 | `/codigo` (redirige) | https://bolivia-100-hackers.vercel.app/codigo → `/reglamento` |
 
 ---
