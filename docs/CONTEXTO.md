@@ -33,7 +33,8 @@ Principios clave documentados en el producto y el reglamento:
 - `/` — landing
 - `/ranking` — tablero de 100 asientos
 - `/ranking/[n]` — ficha de puesto
-- `/codigo` — reglas públicas cortas
+- `/reglamento` — resumen + botón al documento completo en Google Docs; reemplaza al antiguo `/codigo`
+- `/codigo` — redirige a `/reglamento` (compatibilidad)
 
 ### Flujo de entrada (producto)
 
@@ -89,4 +90,4 @@ Documentación, reglamento, fuentes, snapshot de ranking y notas de migración. 
 
 ## Ética
 
-Solo se documentan y puntúan actividades autorizadas y evidencia pública. Cualquier claim de acceso no autorizado queda fuera del ranking (ver `/codigo` y `docs/REGLAMENTO.md`).
+Solo se documentan y puntúan actividades autorizadas y evidencia pública. Cualquier claim de acceso no autorizado queda fuera del ranking (ver `/reglamento` y `docs/REGLAMENTO.md`).

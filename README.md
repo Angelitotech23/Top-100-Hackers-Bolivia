@@ -45,7 +45,9 @@ El sistema no pretende ser perfecto: pretende ser **auditable, corregible y tran
 |---------|-----|
 | Landing / tablero | https://bolivia-100-hackers.vercel.app |
 | Ranking (100 asientos) | https://bolivia-100-hackers.vercel.app/ranking |
-| Código público (reglas cortas) | https://bolivia-100-hackers.vercel.app/codigo |
+| Reglamento de postulación | https://bolivia-100-hackers.vercel.app/reglamento |
+| Reglamento completo (Google Docs) | https://docs.google.com/document/d/1or7-7jpmDDzhE5ygkkFpj2MdT9iB2W9xYNOvNFnkyiw/edit?usp=sharing |
+| `/codigo` (redirige) | https://bolivia-100-hackers.vercel.app/codigo → `/reglamento` |
 
 ---
 
@@ -160,7 +162,7 @@ El tablero en vivo puede haber cambiado después de esta fecha; este archivo es 
 ## Ética (línea roja)
 
 Solo se documentan y puntúan actividades **autorizadas** y evidencia pública. Quedan fuera: acceso sin permiso, fraude, interrupciones y vanity metrics sin respaldo técnico.  
-Ver [código público](https://bolivia-100-hackers.vercel.app/codigo) y [docs/REGLAMENTO.md](./docs/REGLAMENTO.md).
+Ver [reglamento en el sitio](https://bolivia-100-hackers.vercel.app/reglamento) y [docs/REGLAMENTO.md](./docs/REGLAMENTO.md).
 
 ---
 
