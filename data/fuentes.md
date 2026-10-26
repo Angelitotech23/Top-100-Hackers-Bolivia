@@ -14,7 +14,8 @@ Todas las consultas usaron fecha **2026-10-26** (zona America/La_Paz), salvo que
 8. **Ficha puesto 08** — https://bolivia-100-hackers.vercel.app/ranking/8
 9. **Ficha puesto 13** — https://bolivia-100-hackers.vercel.app/ranking/13
 10. **Código del ranking** — https://bolivia-100-hackers.vercel.app/codigo
-11. **Landing** — https://bolivia-100-hackers.vercel.app/
+11. **Reglamento de postulación** — https://bolivia-100-hackers.vercel.app/reglamento
+12. **Landing** — https://bolivia-100-hackers.vercel.app/
 
 ## Documentación local
 

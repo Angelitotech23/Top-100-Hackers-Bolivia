@@ -33,7 +33,8 @@ Principios clave documentados en el producto y el reglamento:
 - `/` — landing
 - `/ranking` — tablero de 100 asientos
 - `/ranking/[n]` — ficha de puesto
-- `/codigo` — reglas públicas cortas
+- `/codigo` — reglas públicas cortas (alineadas al reglamento v1.0)
+- `/reglamento` — reglamento de postulación y puntaje (v1.0)
 
 ### Flujo de entrada (producto)
 
