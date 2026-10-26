@@ -1,1 +1,101 @@
-TEST
+posicion,estado,alias,nombre_publico,metrica,titulo_perfil,ubicacion,roles,logro_publico,perfil_publico,evidencia_url,fuente_url,fecha_consulta,verificacion,notas
+1,ocupada,Angel_tech,Jhon Angelo Rivera Cartagena · Angel_tech,puesto_asignado=1,"Founder, Team Zephy",,Ingeniería de Software; Blockchain,"Fundó Team Zephy, comunidad tecnológica de investigación para Latinoamérica. Construye en software, web3 y fintech desde Santa Cruz.",https://www.linkedin.com/in/jhon-angelo-rivera-cartagena,https://github.com/Angelldino23/raking-Bolivia-100,https://bolivia-100-hackers.vercel.app/ranking/1,2026-10-26,verificado,Ficha resumida en tablero; detalle en URL de ficha.
+2,ocupada,nemejia,Nicolás Emir Mejía Agreda · nemejia,puesto_asignado=2,,,Embajador de plataforma; Datos / Inteligencia Artificial,"Embajador n8n y automatización aplicada en Santa Cruz. Forma equipos en IA, SQL y pipelines de datos.",https://www.linkedin.com/in/nicolas-emir-mejia-agreda,,https://bolivia-100-hackers.vercel.app/ranking/2,2026-10-26,verificado,Ficha resumida en tablero; detalle en URL de ficha.
+3,ocupada,vanelncripto,Vanessa Cárdenas de la Fuente · vanelncripto,puesto_asignado=3,,,Embajador de plataforma; Educación,Embajadora de MERUU Bolivia y educadora web3. Lidera comunidad bitcoin y equipos de builders en Santa Cruz.,https://www.linkedin.com/in/vanessa-cardenas-de-la-fuente,,https://bolivia-100-hackers.vercel.app/ranking/3,2026-10-26,verificado,Ficha resumida en tablero; detalle en URL de ficha.
+4,ocupada,yeisa,Yeisa Torrico · yeisa,puesto_asignado=4,"Co-founder, YAIS Lab",,Educación; Datos / Inteligencia Artificial,"Co-founder de YAIS Lab, comunidad de investigación con IA que aborda problemas de Bolivia. Promueve mujeres en STEM, IT e IA desde Santa Cruz.",https://www.linkedin.com/in/yeisa-torrico,,https://bolivia-100-hackers.vercel.app/ranking/4,2026-10-26,verificado,Ficha resumida en tablero; detalle en URL de ficha.
+5,ocupada,mauricio,Sergio Mauricio Núñez · mauricio,puesto_asignado=5,,,Datos / Inteligencia Artificial; Diseño / Producto,"Ingeniero de IA y AI Safety. Product manager de IA en YAIS Lab, Santa Cruz.",https://www.linkedin.com/in/sergio-mauricio-nunez,,https://bolivia-100-hackers.vercel.app/ranking/5,2026-10-26,verificado,Ficha resumida en tablero; detalle en URL de ficha.
+6,abierta,,,,,,,,,,https://bolivia-100-hackers.vercel.app/ranking,2026-10-26,verificado,Plaza sin postulación aprobada al corte.
+7,ocupada,jhennysolis,Jhenny Solis · jhennysolis,puesto_asignado=7,UI/UX Designer,,Diseño / Producto; Embajador de plataforma,"Community leader en Santa Cruz: organiza con Women Techmakers y Ficct Ladies, y diseña en Figma para acercar más mujeres a la tecnología.",https://www.linkedin.com/in/jhennysolis,,https://bolivia-100-hackers.vercel.app/ranking/7,2026-10-26,verificado,Ficha resumida en tablero; detalle en URL de ficha.
+8,ocupada,kenyi001,Dax Kenji Tellez Duran · kenyi001,puesto_asignado=8,Full Stack & Backend,,Ingeniería de Software; Datos / Inteligencia Artificial,"Construye backends y sistemas full stack con Python, Node.js y .NET. APIs REST, IA aplicada (RAG/OCR), automatización WhatsApp/n8n y cloud. Staff del Cursor Buildathon Bolivia.",https://www.linkedin.com/in/kenyi001,,https://bolivia-100-hackers.vercel.app/ranking/8,2026-10-26,verificado,Ficha resumida en tablero; detalle en URL de ficha. GitHub en ficha: https://github.com/Kenyi001
+9,abierta,,,,,,,,,,https://bolivia-100-hackers.vercel.app/ranking,2026-10-26,verificado,Plaza sin postulación aprobada al corte.
+10,abierta,,,,,,,,,,https://bolivia-100-hackers.vercel.app/ranking,2026-10-26,verificado,Plaza sin postulación aprobada al corte.
+11,abierta,,,,,,,,,,https://bolivia-100-hackers.vercel.app/ranking,2026-10-26,verificado,Plaza sin postulación aprobada al corte.
+12,abierta,,,,,,,,,,https://bolivia-100-hackers.vercel.app/ranking,2026-10-26,verificado,Plaza sin postulación aprobada al corte.
+13,ocupada,arianesomoza,Ariane Somoza Rocha · arianesomoza,puesto_asignado=13,"Local Lead, NASA Space Apps Santa Cruz",,Ingeniería de Software; Embajador de plataforma,"Local Lead del NASA Space Apps Challenge en Santa Cruz, el hackatón global de la NASA. Tech Lead en UxODS y voluntaria en la escena tech local.",https://www.linkedin.com/in/arianesomoza,,https://bolivia-100-hackers.vercel.app/ranking/13,2026-10-26,verificado,Ficha resumida en tablero; detalle en URL de ficha.
+14,abierta,,,,,,,,,,https://bolivia-100-hackers.vercel.app/ranking,2026-10-26,verificado,Plaza sin postulación aprobada al corte.
+15,abierta,,,,,,,,,,https://bolivia-100-hackers.vercel.app/ranking,2026-10-26,verificado,Plaza sin postulación aprobada al corte.
+16,abierta,,,,,,,,,,https://bolivia-100-hackers.vercel.app/ranking,2026-10-26,verificado,Plaza sin postulación aprobada al corte.
+17,abierta,,,,,,,,,,https://bolivia-100-hackers.vercel.app/ranking,2026-10-26,verificado,Plaza sin postulación aprobada al corte.
+18,abierta,,,,,,,,,,https://bolivia-100-hackers.vercel.app/ranking,2026-10-26,verificado,Plaza sin postulación aprobada al corte.
+19,abierta,,,,,,,,,,https://bolivia-100-hackers.vercel.app/ranking,2026-10-26,verificado,Plaza sin postulación aprobada al corte.
+20,abierta,,,,,,,,,,https://bolivia-100-hackers.vercel.app/ranking,2026-10-26,verificado,Plaza sin postulación aprobada al corte.
+21,abierta,,,,,,,,,,https://bolivia-100-hackers.vercel.app/ranking,2026-10-26,verificado,Plaza sin postulación aprobada al corte.
+22,abierta,,,,,,,,,,https://bolivia-100-hackers.vercel.app/ranking,2026-10-26,verificado,Plaza sin postulación aprobada al corte.
+23,abierta,,,,,,,,,,https://bolivia-100-hackers.vercel.app/ranking,2026-10-26,verificado,Plaza sin postulación aprobada al corte.
+24,abierta,,,,,,,,,,https://bolivia-100-hackers.vercel.app/ranking,2026-10-26,verificado,Plaza sin postulación aprobada al corte.
+25,abierta,,,,,,,,,,https://bolivia-100-hackers.vercel.app/ranking,2026-10-26,verificado,Plaza sin postulación aprobada al corte.
+26,abierta,,,,,,,,,,https://bolivia-100-hackers.vercel.app/ranking,2026-10-26,verificado,Plaza sin postulación aprobada al corte.
+27,abierta,,,,,,,,,,https://bolivia-100-hackers.vercel.app/ranking,2026-10-26,verificado,Plaza sin postulación aprobada al corte.
+28,abierta,,,,,,,,,,https://bolivia-100-hackers.vercel.app/ranking,2026-10-26,verificado,Plaza sin postulación aprobada al corte.
+29,abierta,,,,,,,,,,https://bolivia-100-hackers.vercel.app/ranking,2026-10-26,verificado,Plaza sin postulación aprobada al corte.
+30,abierta,,,,,,,,,,https://bolivia-100-hackers.vercel.app/ranking,2026-10-26,verificado,Plaza sin postulación aprobada al corte.
+31,abierta,,,,,,,,,,https://bolivia-100-hackers.vercel.app/ranking,2026-10-26,verificado,Plaza sin postulación aprobada al corte.
+32,abierta,,,,,,,,,,https://bolivia-100-hackers.vercel.app/ranking,2026-10-26,verificado,Plaza sin postulación aprobada al corte.
+33,abierta,,,,,,,,,,https://bolivia-100-hackers.vercel.app/ranking,2026-10-26,verificado,Plaza sin postulación aprobada al corte.
+34,abierta,,,,,,,,,,https://bolivia-100-hackers.vercel.app/ranking,2026-10-26,verificado,Plaza sin postulación aprobada al corte.
+35,abierta,,,,,,,,,,https://bolivia-100-hackers.vercel.app/ranking,2026-10-26,verificado,Plaza sin postulación aprobada al corte.
+36,abierta,,,,,,,,,,https://bolivia-100-hackers.vercel.app/ranking,2026-10-26,verificado,Plaza sin postulación aprobada al corte.
+37,abierta,,,,,,,,,,https://bolivia-100-hackers.vercel.app/ranking,2026-10-26,verificado,Plaza sin postulación aprobada al corte.
+38,abierta,,,,,,,,,,https://bolivia-100-hackers.vercel.app/ranking,2026-10-26,verificado,Plaza sin postulación aprobada al corte.
+39,abierta,,,,,,,,,,https://bolivia-100-hackers.vercel.app/ranking,2026-10-26,verificado,Plaza sin postulación aprobada al corte.
+40,abierta,,,,,,,,,,https://bolivia-100-hackers.vercel.app/ranking,2026-10-26,verificado,Plaza sin postulación aprobada al corte.
+41,abierta,,,,,,,,,,https://bolivia-100-hackers.vercel.app/ranking,2026-10-26,verificado,Plaza sin postulación aprobada al corte.
+42,abierta,,,,,,,,,,https://bolivia-100-hackers.vercel.app/ranking,2026-10-26,verificado,Plaza sin postulación aprobada al corte.
+43,abierta,,,,,,,,,,https://bolivia-100-hackers.vercel.app/ranking,2026-10-26,verificado,Plaza sin postulación aprobada al corte.
+44,abierta,,,,,,,,,,https://bolivia-100-hackers.vercel.app/ranking,2026-10-26,verificado,Plaza sin postulación aprobada al corte.
+45,abierta,,,,,,,,,,https://bolivia-100-hackers.vercel.app/ranking,2026-10-26,verificado,Plaza sin postulación aprobada al corte.
+46,abierta,,,,,,,,,,https://bolivia-100-hackers.vercel.app/ranking,2026-10-26,verificado,Plaza sin postulación aprobada al corte.
+47,abierta,,,,,,,,,,https://bolivia-100-hackers.vercel.app/ranking,2026-10-26,verificado,Plaza sin postulación aprobada al corte.
+48,abierta,,,,,,,,,,https://bolivia-100-hackers.vercel.app/ranking,2026-10-26,verificado,Plaza sin postulación aprobada al corte.
+49,abierta,,,,,,,,,,https://bolivia-100-hackers.vercel.app/ranking,2026-10-26,verificado,Plaza sin postulación aprobada al corte.
+50,abierta,,,,,,,,,,https://bolivia-100-hackers.vercel.app/ranking,2026-10-26,verificado,Plaza sin postulación aprobada al corte.
+51,abierta,,,,,,,,,,https://bolivia-100-hackers.vercel.app/ranking,2026-10-26,verificado,Plaza sin postulación aprobada al corte.
+52,abierta,,,,,,,,,,https://bolivia-100-hackers.vercel.app/ranking,2026-10-26,verificado,Plaza sin postulación aprobada al corte.
+53,abierta,,,,,,,,,,https://bolivia-100-hackers.vercel.app/ranking,2026-10-26,verificado,Plaza sin postulación aprobada al corte.
+54,abierta,,,,,,,,,,https://bolivia-100-hackers.vercel.app/ranking,2026-10-26,verificado,Plaza sin postulación aprobada al corte.
+55,abierta,,,,,,,,,,https://bolivia-100-hackers.vercel.app/ranking,2026-10-26,verificado,Plaza sin postulación aprobada al corte.
+56,abierta,,,,,,,,,,https://bolivia-100-hackers.vercel.app/ranking,2026-10-26,verificado,Plaza sin postulación aprobada al corte.
+57,abierta,,,,,,,,,,https://bolivia-100-hackers.vercel.app/ranking,2026-10-26,verificado,Plaza sin postulación aprobada al corte.
+58,abierta,,,,,,,,,,https://bolivia-100-hackers.vercel.app/ranking,2026-10-26,verificado,Plaza sin postulación aprobada al corte.
+59,abierta,,,,,,,,,,https://bolivia-100-hackers.vercel.app/ranking,2026-10-26,verificado,Plaza sin postulación aprobada al corte.
+60,abierta,,,,,,,,,,https://bolivia-100-hackers.vercel.app/ranking,2026-10-26,verificado,Plaza sin postulación aprobada al corte.
+61,abierta,,,,,,,,,,https://bolivia-100-hackers.vercel.app/ranking,2026-10-26,verificado,Plaza sin postulación aprobada al corte.
+62,abierta,,,,,,,,,,https://bolivia-100-hackers.vercel.app/ranking,2026-10-26,verificado,Plaza sin postulación aprobada al corte.
+63,abierta,,,,,,,,,,https://bolivia-100-hackers.vercel.app/ranking,2026-10-26,verificado,Plaza sin postulación aprobada al corte.
+64,abierta,,,,,,,,,,https://bolivia-100-hackers.vercel.app/ranking,2026-10-26,verificado,Plaza sin postulación aprobada al corte.
+65,abierta,,,,,,,,,,https://bolivia-100-hackers.vercel.app/ranking,2026-10-26,verificado,Plaza sin postulación aprobada al corte.
+66,abierta,,,,,,,,,,https://bolivia-100-hackers.vercel.app/ranking,2026-10-26,verificado,Plaza sin postulación aprobada al corte.
+67,abierta,,,,,,,,,,https://bolivia-100-hackers.vercel.app/ranking,2026-10-26,verificado,Plaza sin postulación aprobada al corte.
+68,abierta,,,,,,,,,,https://bolivia-100-hackers.vercel.app/ranking,2026-10-26,verificado,Plaza sin postulación aprobada al corte.
+69,abierta,,,,,,,,,,https://bolivia-100-hackers.vercel.app/ranking,2026-10-26,verificado,Plaza sin postulación aprobada al corte.
+70,abierta,,,,,,,,,,https://bolivia-100-hackers.vercel.app/ranking,2026-10-26,verificado,Plaza sin postulación aprobada al corte.
+71,abierta,,,,,,,,,,https://bolivia-100-hackers.vercel.app/ranking,2026-10-26,verificado,Plaza sin postulación aprobada al corte.
+72,abierta,,,,,,,,,,https://bolivia-100-hackers.vercel.app/ranking,2026-10-26,verificado,Plaza sin postulación aprobada al corte.
+73,abierta,,,,,,,,,,https://bolivia-100-hackers.vercel.app/ranking,2026-10-26,verificado,Plaza sin postulación aprobada al corte.
+74,abierta,,,,,,,,,,https://bolivia-100-hackers.vercel.app/ranking,2026-10-26,verificado,Plaza sin postulación aprobada al corte.
+75,abierta,,,,,,,,,,https://bolivia-100-hackers.vercel.app/ranking,2026-10-26,verificado,Plaza sin postulación aprobada al corte.
+76,abierta,,,,,,,,,,https://bolivia-100-hackers.vercel.app/ranking,2026-10-26,verificado,Plaza sin postulación aprobada al corte.
+77,abierta,,,,,,,,,,https://bolivia-100-hackers.vercel.app/ranking,2026-10-26,verificado,Plaza sin postulación aprobada al corte.
+78,abierta,,,,,,,,,,https://bolivia-100-hackers.vercel.app/ranking,2026-10-26,verificado,Plaza sin postulación aprobada al corte.
+79,abierta,,,,,,,,,,https://bolivia-100-hackers.vercel.app/ranking,2026-10-26,verificado,Plaza sin postulación aprobada al corte.
+80,abierta,,,,,,,,,,https://bolivia-100-hackers.vercel.app/ranking,2026-10-26,verificado,Plaza sin postulación aprobada al corte.
+81,abierta,,,,,,,,,,https://bolivia-100-hackers.vercel.app/ranking,2026-10-26,verificado,Plaza sin postulación aprobada al corte.
+82,abierta,,,,,,,,,,https://bolivia-100-hackers.vercel.app/ranking,2026-10-26,verificado,Plaza sin postulación aprobada al corte.
+83,abierta,,,,,,,,,,https://bolivia-100-hackers.vercel.app/ranking,2026-10-26,verificado,Plaza sin postulación aprobada al corte.
+84,abierta,,,,,,,,,,https://bolivia-100-hackers.vercel.app/ranking,2026-10-26,verificado,Plaza sin postulación aprobada al corte.
+85,abierta,,,,,,,,,,https://bolivia-100-hackers.vercel.app/ranking,2026-10-26,verificado,Plaza sin postulación aprobada al corte.
+86,abierta,,,,,,,,,,https://bolivia-100-hackers.vercel.app/ranking,2026-10-26,verificado,Plaza sin postulación aprobada al corte.
+87,abierta,,,,,,,,,,https://bolivia-100-hackers.vercel.app/ranking,2026-10-26,verificado,Plaza sin postulación aprobada al corte.
+88,abierta,,,,,,,,,,https://bolivia-100-hackers.vercel.app/ranking,2026-10-26,verificado,Plaza sin postulación aprobada al corte.
+89,abierta,,,,,,,,,,https://bolivia-100-hackers.vercel.app/ranking,2026-10-26,verificado,Plaza sin postulación aprobada al corte.
+90,abierta,,,,,,,,,,https://bolivia-100-hackers.vercel.app/ranking,2026-10-26,verificado,Plaza sin postulación aprobada al corte.
+91,abierta,,,,,,,,,,https://bolivia-100-hackers.vercel.app/ranking,2026-10-26,verificado,Plaza sin postulación aprobada al corte.
+92,abierta,,,,,,,,,,https://bolivia-100-hackers.vercel.app/ranking,2026-10-26,verificado,Plaza sin postulación aprobada al corte.
+93,abierta,,,,,,,,,,https://bolivia-100-hackers.vercel.app/ranking,2026-10-26,verificado,Plaza sin postulación aprobada al corte.
+94,abierta,,,,,,,,,,https://bolivia-100-hackers.vercel.app/ranking,2026-10-26,verificado,Plaza sin postulación aprobada al corte.
+95,abierta,,,,,,,,,,https://bolivia-100-hackers.vercel.app/ranking,2026-10-26,verificado,Plaza sin postulación aprobada al corte.
+96,abierta,,,,,,,,,,https://bolivia-100-hackers.vercel.app/ranking,2026-10-26,verificado,Plaza sin postulación aprobada al corte.
+97,abierta,,,,,,,,,,https://bolivia-100-hackers.vercel.app/ranking,2026-10-26,verificado,Plaza sin postulación aprobada al corte.
+98,abierta,,,,,,,,,,https://bolivia-100-hackers.vercel.app/ranking,2026-10-26,verificado,Plaza sin postulación aprobada al corte.
+99,abierta,,,,,,,,,,https://bolivia-100-hackers.vercel.app/ranking,2026-10-26,verificado,Plaza sin postulación aprobada al corte.
+100,abierta,,,,,,,,,,https://bolivia-100-hackers.vercel.app/ranking,2026-10-26,verificado,Plaza sin postulación aprobada al corte.
