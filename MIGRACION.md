@@ -1,37 +1,68 @@
 # Inventario de migración — Top 100 Hackers Bolivia
 
-**Repositorio:** `Angelitotech23/Top-100-Hackers-Bolivia`  
-**Actualizado:** 2026-10-26 (America/La_Paz)
+**Repositorio inventariado:** `Angelitotech23/Top-100-Hackers-Bolivia`  
+**Fecha:** 2026-10-26 (America/La_Paz)  
+**Alcance:** documentación y datos de este repo. Sin secretos ni datos privados de usuarios.
 
-## Estado actual
+---
 
-Este repositorio ahora incluye la **aplicación Next.js** del tablero (App Router, TypeScript, Tailwind):
+## Hallazgo principal
+
+Este repositorio es de **documentación y datos del ranking**, no de la aplicación desplegable.
 
 | Ruta | Rol |
 |------|-----|
-| `src/app` | Páginas: home, ranking, fichas, código, reglamento, postular |
-| `src/data/hackers.ts` | Perfiles ocupados temporada 2026 |
-| `src/app/api/applications` | API demo de postulaciones (memoria de proceso) |
-| `data/fuentes.md` | Fuentes consultadas |
-| `README.md` | Cómo correr el proyecto |
+| `README.md` | Índice del proyecto |
+| `REGLAMENTO.md` | Reglamento de puntaje v1.0 |
+| `CONTEXTO.md` | Contexto de producto, plazas y stack |
+| `data/fuentes.md` | Fuentes y URLs |
+| `data/ranking-2026.md` | Snapshot legible |
+| `data/ranking-2026.json` | Snapshot estructurado |
+| `MIGRACION.md` | Este inventario |
 
-## Auth / datos
+La app en producción está en **Vercel**: `https://bolivia-100-hackers.vercel.app` (Clerk). El código de esa app **no** está en este árbol.
 
-- **Clerk / Supabase:** no estánados en este código (postulación demo local).
-- **Secretos:** ninguno requerido para `npm run dev`.
-- Variables de entorno: ninguna obligatoria.
+---
 
-## Cómo correr
+## 1. Stack en este repo
 
-```bash
-npm install
-npm run dev
-```
+| Componente | Presente |
+|------------|----------|
+| Next.js / React / package.json | No |
+| Clerk / Supabase SDK | No |
+| Migraciones SQL | No |
+| `.env*` | No |
 
-Puerto por defecto del script: `43127`.
+---
 
-## Pendiente opcional
+## 2. Variables de entorno
 
-1. Conectar Clerk si se desea login real (como en el tablero histórico de Vercel).
-2. Persistencia (Supabase u otro) para postulaciones y revisión de mesa.
-3. Publicar en Vercel y apuntar dominio/alias.
+Ninguna en este código. Las de la app en Vercel/Clerk/Supabase **requieren revisión en el dashboard** (no se listan valores).
+
+---
+
+## 3. Tablas / IDs Clerk
+
+**0 tablas** definidas aquí. Remap de `user_xxx` no verificable desde este repo.
+
+---
+
+## 4. Secretos en historial
+
+Escaneo de patrones comunes en este repo: **ningún secreto encontrado** (no imprimir valores).
+
+---
+
+## 5. Pasos manuales si se migra la *app* (otro repo / Vercel)
+
+1. Identificar proyecto Vercel de `bolivia-100-hackers.vercel.app`.  
+2. Inventariar env solo por **nombres** en el dashboard.  
+3. Confirmar Clerk (export usuarios) y persistencia si existe.  
+4. Obtener acceso al repo real de la aplicación.  
+5. No pegar secretos en git.
+
+---
+
+## 6. Archivos revisados
+
+README, CONTEXTO, REGLAMENTO, data/*, historial de docs. Sin `package.json` ni código de app en el estado actual del repo.
