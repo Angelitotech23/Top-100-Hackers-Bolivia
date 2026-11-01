@@ -1,0 +1,40 @@
+name: Fetch package-lock
+on:
+  workflow_dispatch:
+  push:
+    branches: [preparar-despliegue]
+    paths:
+      - '.github/workflows/fetch-lockfile.yml'
+permissions:
+  contents: write
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: preparar-despliegue
+      - name: Download exact package-lock.json
+        run: |
+          curl -fsSL -A 'Mozilla/5.0' -o package-lock.json \
+            'https://litter.catbox.moe/1fu27p.json'
+          wc -c package-lock.json
+          python3 - <<'PY'
+          import hashlib
+          data=open('package-lock.json','rb').read()
+          sha=hashlib.sha1(b'blob %d\0'%len(data)+data).hexdigest()
+          print(sha)
+          assert len(data)==349707
+          assert sha=='9d82eec6aaddc8b663f8a533bcd6b8cf0f079594'
+          PY
+      - name: Commit package-lock.json
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add package-lock.json
+          if git diff --cached --quiet; then
+            echo "No changes"
+          else
+            git commit -m "Add package-lock.json for reproducible installs"
+            git push
+          fi
