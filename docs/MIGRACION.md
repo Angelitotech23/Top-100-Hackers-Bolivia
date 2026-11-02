@@ -68,3 +68,9 @@ Escaneo de patrones comunes en este repo: **ningún secreto encontrado** (no imp
 ## 6. Archivos revisados
 
 README, docs/CONTEXTO, docs/REGLAMENTO, data/*, historial de docs. Sin `package.json` ni código de app en el estado actual del repo.
+
+---
+
+## Actualización (preparación de despliegue)
+
+A partir de la rama `preparar-despliegue`, este repositorio **también** incluye el código fuente Next.js de la app, `package.json`, `package-lock.json`, `.env.example`, `.nvmrc`, `vercel.json` y `DEPLOY.md`, para poder importarlo en otra cuenta de Vercel. Ver [DEPLOY.md](../DEPLOY.md).
