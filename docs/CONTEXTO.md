@@ -1,8 +1,7 @@
 # Contexto del proyecto — Bolivia 100 Hackers
 
 **Fecha de este documento:** 2026-10-26 (America/La_Paz)  
-**Actualización:** 2026-11-02 — Supabase desconectado del deploy.  
-**Repo:** `Angelitotech23/Top-100-Hackers-Bolivia`
+**Repo de documentación:** `Angelitotech23/Top-100-Hackers-Bolivia`
 
 ## Qué es
 
@@ -22,7 +21,7 @@ Principios clave documentados en el producto y el reglamento:
 | Ítem | Valor |
 |------|-------|
 | Host | `https://bolivia-100-hackers.vercel.app` |
-| Auth / persistencia del ranking | Clerk (correo / Google; metadatos de usuario) |
+| Auth | Clerk (correo / Google) |
 | Temporada visible | 2026 |
 | Plazas | 100 |
 | Ocupadas (snapshot 2026-10-26) | 8 |
@@ -34,7 +33,7 @@ Principios clave documentados en el producto y el reglamento:
 - `/` — landing
 - `/ranking` — tablero de 100 asientos
 - `/ranking/[n]` — ficha de puesto
-- `/codigo` — reglas públicas cortas (redirige a `/reglamento`)
+- `/codigo` — reglas públicas cortas
 
 ### Flujo de entrada (producto)
 
@@ -73,13 +72,20 @@ Bug bounty · CTF · Seguridad de aplicaciones · Red team ético · Blue team y
 | Formación académica | 300 |
 | **Total base** | **5000** |
 
-## Stack
+## Stack de la app (no está en este repo)
+
+Este repositorio **no** contiene el código desplegable. Referencias históricas:
 
 | Componente | Notas |
 |------------|-------|
 | Frontend / hosting | Vercel (`bolivia-100-hackers.vercel.app`) |
-| Auth + datos del ranking | Clerk |
-| Base de datos externa | Ninguna (Supabase retirado del proyecto) |
+| Auth | Clerk |
+| Persistencia | No inventariada aquí (posible Supabase u otro; requiere dashboard) |
+| Repo de app citado antes | `angelitotzy23/rank-quest` — inaccesible / 404 al inventariar |
+
+## Qué SÍ vive aquí
+
+Documentación, reglamento, fuentes, snapshot de ranking y notas de migración. Sirve como fuente de verdad de reglas y contexto, no como deploy.
 
 ## Ética
 
