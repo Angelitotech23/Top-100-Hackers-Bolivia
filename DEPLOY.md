@@ -11,7 +11,7 @@ Guía para volver a desplegar esta aplicación en otra cuenta de Vercel de forma
 | Framework | **Next.js** `16.4.2` (App Router) |
 | Runtime / Node | **24.x** en el proyecto Vercel original (`.nvmrc` = `24`; `engines.node` ≥ 20.9) |
 | Auth / datos | **Clerk** (`@clerk/nextjs`). El ranking vive en metadatos de usuarios Clerk. |
-| Base de datos | No. Supabase fue retirado: no hay variables ni uso en el código. |
+| Base de datos | No usada por el código actual. En Vercel original había variables `NEXT_PUBLIC_SUPABASE_*` sin uso en el código. |
 
 ## Comandos y salida
 
@@ -29,7 +29,7 @@ En el dashboard de Vercel, deja Framework Preset = **Next.js**. No hace falta Bu
 
 Configura **los mismos nombres** en la cuenta nueva. **No copies valores desde este repositorio** (aquí solo hay nombres).
 
-Todas deben definirse para **Production**, **Preview** y **Development**:
+Todas estaban definidas en el proyecto original para **Production**, **Preview** y **Development**:
 
 | Variable | Entornos | Para qué sirve |
 | --- | --- | --- |
@@ -40,6 +40,8 @@ Todas deben definirse para **Production**, **Preview** y **Development**:
 | `NEXT_PUBLIC_CLERK_SIGN_IN_FALLBACK_REDIRECT_URL` | Production, Preview, Development | Redirect tras login (`/postular`) |
 | `NEXT_PUBLIC_CLERK_SIGN_UP_FALLBACK_REDIRECT_URL` | Production, Preview, Development | Redirect tras registro (`/postular`) |
 | `RANKING_ADMIN_EMAILS` | Production, Preview, Development | Correos admin de `/revision`, separados por coma |
+| `NEXT_PUBLIC_SUPABASE_URL` | Production, Preview, Development | Presente en Vercel original; **no usada por el código actual** |
+| `NEXT_PUBLIC_SUPABASE_ANON_KEY` | Production, Preview, Development | Presente en Vercel original; **no usada por el código actual** |
 
 Plantilla vacía: [`.env.example`](./.env.example).
 
@@ -83,7 +85,7 @@ Archivo [`vercel.json`](./vercel.json): framework Next.js + redirect de `/codigo
 2. Entra a [vercel.com](https://vercel.com) con la cuenta destino → **Add New… → Project**.
 3. **Import** el repositorio `Angelitotech23/Top-100-Hackers-Bolivia` (o el fork en tu cuenta).
 4. Framework Preset: **Next.js**. Root Directory: `.` (raíz). Install: `npm install`. Build: `npm run build`. Node.js: **24.x** (o la del `.nvmrc`).
-5. En **Environment Variables**, crea una por una las de la tabla de arriba para Production, Preview y Development. Usa valores de tu Clerk.
+5. En **Environment Variables**, crea una por una las de la tabla de arriba para Production, Preview y Development. Usa valores de tu Clerk (y Supabase solo si quieres paridad; el código no las lee hoy).
 6. Deploy. Anota la URL `*.vercel.app` generada.
 7. En el dashboard de **Clerk**, añade esa URL a dominios permitidos y actualiza redirects si hace falta.
 8. Pon al menos un correo real en `RANKING_ADMIN_EMAILS` y redespliega si lo cambias después del primer deploy.
@@ -100,4 +102,4 @@ Archivo [`vercel.json`](./vercel.json): framework Next.js + redirect de `/codigo
 
 - El código de la app **no** estaba en este repo de GitHub hasta la rama de preparación de despliegue; el sitio en Vercel se alimentaba del árbol Next.js (despliegues sin metadatos Git visibles / CLI).
 - En producción original existía `/reglamento` y `/codigo` redirigía allí; `/descargar` **no** estaba en ese deploy (sí está en este árbol de código).
-- Había un proyecto Supabase histórico (“Raking 100 bolivia”) cableado en Vercel sin uso en el código; esas variables **fueron eliminadas**. La fuente de verdad del ranking es Clerk.
+- Había un proyecto Supabase “Raking 100 bolivia” y variables en Vercel, pero **0 uso** en el código Next.js; las tablas remotas estaban vacías de postulantes al inventariar.
